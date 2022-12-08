@@ -11,7 +11,7 @@ const card = (props) => {
     <span className='gray'>{props.country}</span>
     </div>
     <p className='info'>{props.title}</p>
-    <p className='price'><span className='bold'>From ${props.price}</span> / person </p>
+    <p className='price'><span className='bold'>From ${props.prices}</span> / person </p>
    </card>
   )
 }
