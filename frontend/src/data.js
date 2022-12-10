@@ -25,14 +25,14 @@ export default[
     },
     {
         id:3,
-        titlfe:"Group mountain biking",
+        title:"Group mountain biking",
         price:120,
         coverImg:"../images/card3.svg",
         stats:{
-            reating:4.0,
+            rating:4.0,
             reviewCount:12
         },
         location:"online",
         openSpots:0,
-    }
+    },
 ]

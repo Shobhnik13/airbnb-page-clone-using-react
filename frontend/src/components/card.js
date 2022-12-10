@@ -8,10 +8,10 @@ const card = (props) => {
     <img src="../images/star.svg" className='starimg'/>
     <span>{props.rating}</span>
     <span className='gray'>({props.reviewCount}) . </span>
-    <span className='gray'>{props.country}</span>
+    <span className='gray'>{props.location}</span>
     </div>
     <p className='info'>{props.title}</p>
-    <p className='price'><span className='bold'>From ${props.prices}</span> / person </p>
+    <p className='price'><span className='bold'>From ${props.price}</span> / person </p>
    </card>
   )
 }
