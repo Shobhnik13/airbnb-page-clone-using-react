@@ -48,6 +48,9 @@ margin: auto;
 card{ 
   width: 176px;
   font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 .cardimg{
   width: 150px;
@@ -69,4 +72,11 @@ card{
 }
 .price{
   margin: 8px 0px;
+}
+.info{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cards-list{
+overflow: scroll;
 }
