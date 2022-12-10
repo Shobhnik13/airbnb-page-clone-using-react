@@ -9,7 +9,7 @@ export default[
             reviewCount:6
         },
         location:"USA",
-        openSpots:28,
+        openSpots:0,
     },
     {
         id:2,
@@ -33,6 +33,40 @@ export default[
             reviewCount:12
         },
         location:"online",
-        openSpots:0,
+        openSpots:67,
+    },
+    {
+        id:2,
+        title:"Learn Wedding photography",
+        price:325,
+        coverImg:"../images/card2.svg",
+        stats:{
+            rating:3.5,
+            reviewCount:8
+        },
+        location:"online",
+        openSpots:10,
+    },{
+        id:2,
+        title:"Learn Wedding photography",
+        price:325,
+        coverImg:"../images/card2.svg",
+        stats:{
+            rating:3.5,
+            reviewCount:8
+        },
+        location:"online",
+        openSpots:10,
+    },{
+        id:2,
+        title:"Learn Wedding photography",
+        price:325,
+        coverImg:"../images/card2.svg",
+        stats:{
+            rating:3.5,
+            reviewCount:8
+        },
+        location:"online",
+        openSpots:10,
     },
 ]
